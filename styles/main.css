@@ -67,16 +67,34 @@ header img {
 main {
 	clear: left;
 }
-/* main h1{
+article{
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-color: #800000;
+}
+article img{
+	padding: 0;
+	float: right;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	border: solid black 1px;
+}
+article h2{
+	padding-top: 0;
+}
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+h1{
 	font-size: 150%;
-	border-bottom: #931420 3px solid;
-	border-top: #931420 3px solid;
-	padding-top: .3em;
-	padding-bottom: .3em;
-	border: red double;
-	border-radius: 10px;
-	box-shadow: 3px 3px black
-} */
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0em;
+} 
 main h2{
 	font-size: 130%;
 	color: #800000;
