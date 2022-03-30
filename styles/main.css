@@ -38,6 +38,13 @@ a:hover {
 blockquote{
 	font-style: italic;
 }
+h3 aside{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+img aside{
+	padding-bottom: 1em;
+}
 h2 {
 	font-size: 170%;
 	color: #800000;
